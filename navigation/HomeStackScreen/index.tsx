@@ -2,6 +2,7 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from '../../screens/HomeScreen';
 import Header from '../../components/common/Header';
+import DeckDetailsScreen from '../../screens/DeckDetailsScreen';
 
 const HomeStack = createStackNavigator();
 const screenOptionStyle = {
@@ -36,7 +37,7 @@ const HomeStackScreen = () => {
           headerTitle: () => <Header navigation={navigation} title="Flingo" />,
         })}
       /> */}
-      {/* <HomeStack.Screen name="Details" component={DetailsScreen} /> */}
+      <HomeStack.Screen name="Deck Details" component={DeckDetailsScreen} />
     </HomeStack.Navigator>
   );
 };

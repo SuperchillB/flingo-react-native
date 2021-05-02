@@ -29,7 +29,7 @@ const BottomTabNavigator = () => {
           },
           shadowColor: '#414141',
           shadowOpacity: 0.05,
-          shadowRadius: 20,
+          shadowRadius: 30,
           elevation: 2,
           position: 'absolute', // !!! Makes background behind tabs disappear
         },
